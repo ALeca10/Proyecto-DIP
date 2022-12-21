@@ -1,0 +1,33 @@
+
+#logo{height: 100px;}
+
+/* header{background-color: red;} */
+
+nav{border: 3px solid;
+    margin-top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#menu{float: right;
+    padding: 10px;
+
+}
+
+.nav-item{margin-left: 50px;}
+
+
+#cab{font-size: x-large;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+#c1{height: 100px;}
+#c2{height: 100px;}
+#c3{height: 100px;}
+#c4{height: 150px;}
+
+.logo{height: 60px;
+    width: 60px;
+    padding: 5px;
+    }

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Envío de Contacto</title>
+    <link rel="stylesheet" href="CSS/estilos formulario.css">
+</head>
+<script type="text/javascript">
+    function ConfirmDelete(){
+        var respuesta = confirm("Gracias por enviarnos un comentario");
+        location.reload(true);
+    }
+
+
+</script>
+<body>
+    <form  action="">
+        <h2>Envíe su Comentario</h2>
+        <input type="text" name="Nombre" placeholder="Nombre">
+        <input type="text" name="correo" placeholder="Correo">
+        <input type="text" name="telfono" placeholder="Teléfono">
+        <textarea name="mensaje" placeholder="Escriba aquí su mensaje" ></textarea>
+        <input type="button" value="ENVIAR" id="boton"  onclick="return ConfirmDelete()">
+
+    </form>
+
+    <script src="JS/formulario.js"></script>
+
+    
+</body>
+</html>

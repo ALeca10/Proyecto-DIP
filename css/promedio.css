@@ -1,0 +1,38 @@
+body{
+    background-image: url('../img/math1.jpg');
+    background-size: 100vw  150vh;
+}
+
+
+h2{
+    font-size: 50px;
+    color: #0d5ee6;
+
+}
+
+p{
+    font-size: 30px;
+}
+#n1{
+    font-size: 20px;
+
+}
+#n2{
+    font-size: 20px;
+}
+#n3{
+    font-size: 20px;
+}
+#n4{
+    font-size: 20px;
+}
+#n5{
+    font-size: 20px;
+}
+#calcular{
+    font-size: 20px;
+}
+
+#c{
+    margin-top: 100px;
+}
